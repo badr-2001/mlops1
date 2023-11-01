@@ -2,6 +2,7 @@ FROM jupyter/scipy-notebook
 
 RUN pip install joblib
 RUN pip install nltk
+RUN pip install pandas
 
 
 USER root
